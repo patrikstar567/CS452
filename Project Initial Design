@@ -1,0 +1,69 @@
+Final Project: Frogger 
+I want to create a modern and fresh remake of the classic arcade game frogger. In this the player will control a frog trying to cross a busy road and has to make it past cars, trains, etc.
+The goal of the game is to survive and make it as far as possible without getting  hit. Each playthrough is unique with cars using variable speeds and all the obstacles are in a 
+random sequence. There will also be coins to collect and powerups that will provide various benefits. Players will be able to save their high scores
+and use their coins to unlock more frog skins which will be stored as a json. 
+Project Goals:
+-Build a frogger 2D game using python and pygame
+-Will include collision, animations and procedural generation
+-Store and retrieve player progress using JSON data files
+-Will have increasing difficulty and player progression
+-Delivar a fun and technically solid demo
+
+Technologies:
+-Python 3.12
+-Pygame → graphics, sound, events
+-JSON → persistent state
+-VS Code → IDE
+
+End-of-Class Goals
+-By the end, you’ll have:
+-A fully playable Frogger Redux game
+-Persistent data (JSON)
+-Polished visuals and audio
+-A GitHub-ready project demonstrating OOP + stateful design
+
+
+
+Date	Goal	Tasks
+Oct 31	Project kickoff	Create folder structure in VS Code (main.py, player.py, vehicle.py, data_manager.py)
+Nov 1	Environment setup	Install Pygame, test display window, verify key input works
+Nov 2	Asset setup	Find or create placeholder sprites (frog, car, road)
+Nov 3	Game loop basics	Display frog and moving cars on screen
+Nov 4	Documentation	Write project summary, system design sketch, ERD
+Nov 5	Planning	Outline scoring, difficulty logic, and save file structure
+Nov 6	Backup & cleanup	Commit to GitHub, verify game window runs cleanly
+Nov 7	Player controls	Implement frog movement and boundaries
+Nov 8	Vehicle movement	Spawn and move cars horizontally
+Nov 9	Collision detection	Detect frog-car collision and reset frog
+Nov 10	Scoring system	Add score counter and display on screen
+Nov 11	Level reset	Restart game when player dies or wins
+Nov 12	Testing	Test car speeds, collision timing
+Nov 13	Polish	Smooth player movement (frame rate fixes)
+Nov 14	OOP refactor	Turn player, car, and level into Python classes
+Nov 15	Level layout	Add road and grass lanes in sequence
+Nov 16	Difficulty curve	Increase car speed or number over time
+Nov 17	Win condition	Add goal area and “Level Complete” state
+Nov 18	Multiple levels	Loop through levels or endless scroll logic
+Nov 19	Pause feature	Add ability to pause/resume with key press
+Nov 20	QA	Test for logic bugs and gameplay consistency
+Nov 21	Setup DataManager	Create DataManager.py file
+Nov 22	Save function	Write code to save high_score, coins, skins to JSON
+Nov 23	Load function	Load player progress at startup
+Nov 24	Integrate	Connect DataManager to main game (save after game over)
+Nov 25	Test	Verify JSON file reads/writes properly
+Nov 26	Edge cases	Handle missing or corrupted save file
+Nov 27	Thanksgiving buffer	Light debugging or documentation update
+Nov 28	Menu screen	Add main menu and start button
+Nov 29	Game over screen	Add restart and exit options
+Nov 30	Sound effects	Add frog jump and crash sounds
+Dec 1	Background music	Add looping background soundtrack
+Dec 2	Sprites & animation	Add animated frog, car frames, and coin pickup
+Dec 3	HUD/UI polish	Improve text display, score layout
+Dec 4	Visual testing	Ensure UI scales properly and animations work
+Dec 5	Bug fixes	Fix collision edge cases, restart bugs
+Dec 6	Difficulty tuning	Balance speed increases per level
+Dec 7	Final data check	Ensure save/load works after multiple sessions
+Dec 8	Export	Package game with pyinstaller (.exe or .app)
+Dec 9	Documentation	Finalize README, include screenshots & diagrams
+Dec 10	Submit!	Turn in your project (and celebrate 🎉)
