@@ -6,7 +6,12 @@ Demo Video:
 
 What did I learn: I learned alot from this project the main idea is how to create a system where data persists across different sessions.
 I had to design a database in SQLite that could store players and their scores and unlockables. This helped me to be able to apply
-concepts learned in class such as aggregation for the high scores and sum for the coins. 
+concepts learned in class such as aggregation for the high scores and sum for the coins. Another important thing I learned was how
+how to use and integrate a 3rd party system in this case I used pygame. I also learned how to better use sprite sheets and how to properly move from sprite 
+to sprite to properly animate them. It was harder than I thought but a very intersting and rewarding experience once I got it working. Another thing 
+that I learned that was quite difficult was how to get the background to scroll. This was very difficult for me but it was really cool once I got it to 
+work. Another thing I learned was how to implement a simple profile system for the users by collecting and storing their username along with all their
+game unlockables. 
 
 Ai Integration: My project does not have AI integration
 
@@ -15,9 +20,20 @@ and problem solving.
 
 Why is this project interesting: I found this project intersting because I have always loved classic video games and I have always wanted
 to do a reimagining of one with a twist and new ideas. This was finally my oppertunity to do so as a class project and I had a really fun time
-designing it and creating it. I especially found creating the ingame shop to be intersting and how it interacts with the backend. 
+designing it and creating it. I especially found creating the ingame shop to be intersting and how it interacts with the backend.
 
-Key Learnings: 
+Key Learnings: The first key learning was how to properly implement and design a functional database for my game. I had to create tables 
+that could support differnt player and their scores, unlocks and coins. This was an important learning as it helped me use what we 
+the concepts we learned behind database design and use them in a real project that I had a passion for. Doing an assignment about it and
+actually designing your own database for your personal project needs are very differnt and I learned so much desinging the database myself.
+helped me understand it even better. The second key learning was how to update that databse with new highscores, unlocks and coins. Its one thing to
+create a database but updating it in real time was quite confusing. For awhile I was confused on how to implement this. I eventually worked through it
+and got it to work. This however was a great learning experience as being able to update the tables is just as important as the database design. 
+All throughout the semester we did Leet code problems on updating tables and retrieving table info but doing it in a real project has helped me 
+come to a deeper understading. The third key learning was to avoid unecessary overhead. I didn't want to call the database more than required as that
+could affect the projects stability. I did this by preloading sprites once per shop visits, using lightweight object updates and using minimal reads while inside
+the game loop as this could really affect performance. This is an important aspect of the project becuase while I don't have a ton of users its best to design it so
+it could handle more users rather than calling the database whenever it was easiest. I wanted to follow good practice and design it in a way that it could be scalable.
 
 Failover Strategy: Although this game runs locally and doesn’t implement distributed failover, I learned what a failover strategy would involve.
 What I learned conceptually: Failover means having a backup database or server ready if the primary fails. SQLite doesn’t support automatic failover, but migrating to a server DB would.
