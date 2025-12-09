@@ -1,1 +1,30 @@
 10/30/2025, Project Design, 0.5
+11/01/2025, "Began implementing backend persistence for my Pygame project. Planned the database structure for tracking player profiles, scores, and coins.", 1.5
+11/03/2025, "Created my first SQLite database file (game_data.db). Built the players and stats tables.", 1.5
+11/04/2025, "Integrated the database into the game. Implemented user account creation and login via username input.", 1.5
+11/05/2025, "Added score saving to SQLite: distance, score, and timestamp. Verified scores persist between runs.", 1.0
+11/06/2025, "Added coin tracking to the stats table. Fixed early database bugs including missing column errors.", 1.0
+11/07/2025, "Built menu screen to display stored player data (games played, high score, coins). Confirmed menu pulls real-time stats from database.", 1.0
+11/10/2025, "Implemented animated coins using a horizontal sprite sheet. Coins now animate continuously at 1 second per cycle.", 1.5
+11/11/2025, "Added coin collision detection and proper incrementing during gameplay.", 1.0
+11/12/2025, "Fixed a major bug where coins inflated to thousands (2025 coin bug). Verified coins now save correctly per run.", 1.5
+11/13/2025, "Began building the in-game shop system. Implemented UI navigation (press S to open shop).", 1.5
+11/14/2025, "Added selectable skins (Porcupine, Peacock, Robot). Shop icons displayed their sprite sheets, but needed cropping.", 1.0
+11/15/2025, "Added function to load only ONE frame from a sprite sheet for shop previews.", 0.5
+11/17/2025, "Implemented purchase system: deduct coins only once, prevent re-purchasing, and ensure skins unlock persistently.", 1.5
+11/18/2025, "Created a new database table skins to track purchased skins. Added functions player_owns_skin and unlock_skin.", 1.5
+11/19/2025, "Added green ✓ ownership markers in shop UI. Updated display to switch between 'purchase' and 'select' text automatically.", 1.0
+11/20/2025, "Implemented working skin selection that updates sprite_sheet_path.", 1.0
+11/21/2025, "Fixed visual spacing and positioning of shop items. Added coin count to top-right corner of shop.", 0.5
+11/24/2025, "Added a new skin (plane) and converted its sprite sheet to 4×4 format.", 1.5
+11/25/2025, "Added support for rearranging user-provided sprite sheets. Successfully transformed plane sheet from 1×4 to 4×1 layout.", 0.5
+11/26/2025, "Adjusted coin spawn rates and lane spacing for better balance.", 0.5
+11/28/2025, "Fixed an issue where database stats didn't update after purchases. Verified purchases deduct coins and save properly.", 0.5
+12/01/2025, "Improved UI alignment in shop and menu screens. Standardized font sizes and placement.", 0.5
+12/02/2025, "Implemented safe spawn logic so the player starts in a lane with no cars.", 1.0
+12/03/2025, "Cleaned up background scrolling logic. Improved performance by optimizing draw calls.", 1.5
+12/04/2025, "Added vertical sprite-sheet rearrangement support. Reworked Grim Reaper sprite request (horizontal → vertical format).", 1.0
+12/05/2025, "Corrected hitbox alignment on new skins. Testing additional sprite sizes.", 0.5
+12/06/2025, "Improved shop preview scaling for non-square frames.", 0.5
+12/07/2025, "Added menu return functionality to game-over screen.", 0.5
+12/09/2025, "Finalizing backend documentation and architecture explanation. Confirmed SQLite persistence, skin ownership, and gameplay stats all function correctly.", 1.0
