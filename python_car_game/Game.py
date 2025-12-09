@@ -734,7 +734,7 @@ def play_game(player_id, username):
         SCORE = DIST_SCORE + BONUS_SCORE
 
         # Start boss once, when score high enough
-        if SCORE >= 10 and (not boss_mode) and (not boss_defeated):
+        if SCORE >= 200 and (not boss_mode) and (not boss_defeated):
             boss_mode = True
             for bos in boss:
                 bos.world_y = camera_y + 50
@@ -872,3 +872,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
