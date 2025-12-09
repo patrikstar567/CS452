@@ -4,7 +4,9 @@ I added several new ideas such as free movement, unlockable skins and a boss fig
 
 Demo Video:
 
-What did I learn: 
+What did I learn: I learned alot from this project the main idea is how to create a system where data persists across different sessions.
+I had to design a database in SQLite that could store players and their scores and unlockables. This helped me to be able to apply
+concepts learned in class such as aggregation for the high scores and sum for the coins. 
 
 Ai Integration: My project does not have AI integration
 
@@ -17,4 +19,6 @@ designing it and creating it. I especially found creating the ingame shop to be 
 
 Key Learnings: 
 
-Failover Strategy: 
+Failover Strategy: Although this game runs locally and doesn’t implement distributed failover, I learned what a failover strategy would involve.
+What I learned conceptually: Failover means having a backup database or server ready if the primary fails. SQLite doesn’t support automatic failover, but migrating to a server DB would.
+Understanding failover helps me reason about reliability and redundancy even in simple systems. I also learned how to protect the game state from corruption with Reliable systems prevent duplicate actions, corrupted records, or inconsistent state.
