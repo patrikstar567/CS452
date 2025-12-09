@@ -1,1 +1,20 @@
-Summary: This project  is a modern adaption of the beloved classic frogger. It is also inspired by the populer 2014 game Crossy Road. I wanted to combine frogger and crossy road and create a game where the player is trying to cross the road and avoid cars. I added several new ideas such as free movement, unlockable skins and a boss fight.
+Summary: This project  is a modern adaption of the beloved classic frogger. It is also inspired by the populer 2014 game Crossy Road. 
+I wanted to combine frogger and crossy road and create a game where the player is trying to cross the road and avoid cars. 
+I added several new ideas such as free movement, unlockable skins and a boss fight.
+
+Demo Video:
+
+What did I learn: 
+
+Ai Integration: My project does not have AI integration
+
+AI Use: I utilized AI at various stages to help me solve complex problems such as how to get the sprite sheets to work and general debugging
+and problem solving. 
+
+Why is this project interesting: I found this project intersting because I have always loved classic video games and I have always wanted
+to do a reimagining of one with a twist and new ideas. This was finally my oppertunity to do so as a class project and I had a really fun time
+designing it and creating it. I especially found creating the ingame shop to be intersting and how it interacts with the backend. 
+
+Key Learnings: 
+
+Failover Strategy: 
