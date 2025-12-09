@@ -70,4 +70,3 @@ Dec 6	Difficulty tuning	Balance speed increases per level
 Dec 7	Final data check	Ensure save/load works after multiple sessions
 Dec 8	Export	Package game with pyinstaller (.exe or .app)
 Dec 9	Documentation	Finalize README, include screenshots & diagrams
-Dec 10	Submit!	Turn in your project (and celebrate 🎉)
