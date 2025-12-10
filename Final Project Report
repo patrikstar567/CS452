@@ -2,7 +2,7 @@ Summary: This project  is a modern adaption of the beloved classic frogger. It i
 I wanted to combine frogger and crossy road and create a game where the player is trying to cross the road and avoid cars. 
 I added several new ideas such as free movement, unlockable skins and a boss fight.
 
-Demo Video:
+Demo Video: https://youtu.be/EkLpad8ygmU
 
 What did I learn: I learned alot from this project the main idea is how to create a system where data persists across different sessions.
 I had to design a database in SQLite that could store players and their scores and unlockables. This helped me to be able to apply
